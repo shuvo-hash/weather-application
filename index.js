@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   );
   let locationTimezone = document.querySelector(".location_timezone");
   let temperatureSection = document.querySelector(".temperature");
-  let temperatureSpan = document.querySelector(".temperature span");
+  let temperatureSpan = document.querySelector(".temperature_form");
   let currentTime = document.querySelector(".current_time");
 
   if (navigator.geolocation) {
